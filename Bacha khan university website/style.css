@@ -1,0 +1,60 @@
+.navbar-nav .nav-link
+{
+	margin-left:5px;
+}
+.navbar-toggler 
+{
+    border-color:black;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.test1
+{
+	width:100%;
+	height:120px;
+	background-color:#F8F8F8;
+	display:flex;
+	margin-top:80px;
+	position: absolute;
+	left:0;
+}
+.test1 p
+{
+	text-align:center;
+	margin-left: 430px;
+}
+.test1 img
+{
+	margin-top:60px;
+}
+@media (min-width: 320px) and (max-width: 480px)
+{
+   .test10
+   {
+   	margin-left:-10px;
+   }
+   .test1 p
+   {
+   	margin-left:17px;
+   	font-size:13px;
+   }
+   .test11
+   {
+   	margin-top:15px;
+   }
+   .test12
+   {
+   	margin-left:40px;
+   	margin-top:0px;
+   }
+   .col-sm-4 
+   {
+   	margin-top:20px;
+   }
+   .btn-block
+   {
+   	margin-top:-10px;
+   }
+ 
+}

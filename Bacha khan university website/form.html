@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script src="scripts/script.js" language="javascript" type="text/javascript"></script>
+
+</head>
+
+<body>
+<form name="studentForm" method="post" action="insertion.php" onSubmit="return validate();">
+  <table width="500" border="0" align="center" cellpadding="4" cellspacing="2">
+  <caption>Student Form Validation</caption>
+    <tr>
+      <td width="129" align="left" valign="top">Student Name:</td>
+      <td width="343" align="left" valign="top"><input type="text" name="stname" id="stname" size="30"></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top">Email:</td>
+      <td align="left" valign="top"><input type="text" name="email" id="email" size="30"></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top">Phone Number:</td>
+      <td align="left" valign="top"><input type="text" name="phone" id="phone" size="30"></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top">&nbsp;</td>
+      <td align="left" valign="top"><input type="submit" name="add" value="Add Record">
+      <input type="reset" value="Clear"></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
